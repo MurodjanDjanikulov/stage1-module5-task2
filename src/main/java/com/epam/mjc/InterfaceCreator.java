@@ -5,7 +5,7 @@ import java.util.List;
 
 public class InterfaceCreator {
 
-    public Operation<Integer> divideBy(Integer divider) {
+    public Operation<List<Integer>> divideBy(Integer divider) {
         return inputList -> {
             List<Integer> result = new ArrayList<>();
             for (Integer value : inputList) {
